@@ -20,7 +20,7 @@ public class OCRUtil {
 
 	@Test
 	public void test() {
-		File imageFile = new File("C:/Users/gzy/Desktop/tess4j/image.png");
+		File imageFile = new File("C:/Users/gzy/Desktop/tess4j/image.jpeg");
 		System.out.println(getOCRResult(imageFile));
 	}
 

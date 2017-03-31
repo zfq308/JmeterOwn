@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30" started-at="2017-03-31T01:58:24Z" finished-at="2017-03-31T01:58:24Z">
+  <suite name="Default suite" duration-ms="691" started-at="2017-03-31T06:24:30Z" finished-at="2017-03-31T06:24:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30" started-at="2017-03-31T01:58:24Z" finished-at="2017-03-31T01:58:24Z">
-      <class name="com.gzy.OCR.VcodeUtils">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.gzy.OCR.VcodeUtils@675d3402]" name="test" duration-ms="10" started-at="2017-03-31T09:58:24Z" finished-at="2017-03-31T09:58:24Z">
+    <test name="Default test" duration-ms="691" started-at="2017-03-31T06:24:30Z" finished-at="2017-03-31T06:24:31Z">
+      <class name="com.gzy.OCR.OCRUtil">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.gzy.OCR.OCRUtil@7823a2f9]" name="test" duration-ms="669" started-at="2017-03-31T14:24:30Z" finished-at="2017-03-31T14:24:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- com.gzy.OCR.VcodeUtils -->
+      </class> <!-- com.gzy.OCR.OCRUtil -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
