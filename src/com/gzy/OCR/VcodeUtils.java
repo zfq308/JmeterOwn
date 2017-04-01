@@ -3,10 +3,7 @@ package com.gzy.OCR;
 import org.testng.annotations.Test;
 
 /**
- * * @author author:gaozeya2@bluemoon.com.cn
- * 
- * @date date：2017年3月31日 上午9:29:03
- * @version 1.0 * @parameter * @since * @return
+ * 验证码正确性校验，分别校验纯数字、纯字母、以及数字+字母的准确性
  */
 public class VcodeUtils {
 	private final static String PATTERNINT = "0123456789";
@@ -51,7 +48,7 @@ public class VcodeUtils {
 					return vcode;
 				}
 			}
-			
+
 		} else {
 			// 数字字母混合
 			for (int i = 0; i < len; i++) {
@@ -60,7 +57,7 @@ public class VcodeUtils {
 					return vcode;
 				}
 			}
-			
+
 		}
 
 		return vcode;

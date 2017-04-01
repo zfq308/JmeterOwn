@@ -9,10 +9,10 @@ import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 
 /**
- * * @author author:gaozeya2@bluemoon.com.cn
- * 
- * @date date：2017年3月30日 下午2:47:59
- * @version 1.0 * @parameter * @since * @return
+ * OCR识别工具类,调用tess4j实现OCR识别
+ * 注意：
+ * 1.tess4j核心包和lib下所有jar包均需要引入
+ * 2.拷贝tessdata文件夹于当前用户目录
  */
 public class OCRUtil {
 	public OCRUtil() {
@@ -26,14 +26,14 @@ public class OCRUtil {
 
 	public static String getOCRResult(File file) {
 
-		ITesseract instance = new Tesseract(); // JNA Interface Mapping
+		ITesseract instance = new Tesseract();  
 		String result = null;
 
 		try {
 			result = instance.doOCR(file);
 		} catch (TesseractException e) {
 			System.out.println(e.getMessage());
-		}finally {
+		} finally {
 			file.delete();
 		}
 
